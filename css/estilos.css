@@ -6,8 +6,34 @@
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background-color: #F4F7F2;
+  background-color: #CCCCCC;
   color: #1F2933;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo-img {
+  display: block;
+  width: 800px;        /* ancho deseado en escritorio */
+  height: 100%;       /* alto deseado */
+  max-width: 100%;     /* se adapta si la pantalla es más pequeña */
+  margin: 0 auto;      /* la centra */
+  margin-bottom: 30px;
+}
+
+/* Ajustes para tablets y móviles */
+@media (max-width: 768px) {
+  .logo-img {
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    height: 100%;
+  }
 }
 
 h1, h2, h3 {
