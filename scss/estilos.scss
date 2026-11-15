@@ -63,7 +63,11 @@ body {
     border: 1px solid #eee;
 }
 
-.precio { color: $color-verde; font-weight: bold; font-size: 1.2rem; }
+.precio { 
+    color: $color-verde; 
+    font-weight: bold; 
+    font-size: 1.2rem; 
+}
 
 .filtros {
     display: flex;

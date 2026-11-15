@@ -173,6 +173,8 @@ body {
 @media (max-width: 576px) { 
   .tarjetas { 
     grid-template-columns: 1fr; 
-  } .menu { flex-direction: column; 
+  } 
+  .menu { 
+    flex-direction: column; 
   } 
 }
