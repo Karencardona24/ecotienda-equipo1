@@ -62,9 +62,31 @@ body {
   color: #1F2933; 
 }
 
+h2 {
+  font: bold 1.5rem 'Poppins', sans-serif;
+}
+
+ul > li > strong {
+    color: #5CB338;
+    font-weight: bold;
+}
+
+div h3 {
+    color: #5CB338;
+    font-weight: semi-bold;
+}
+
 .form-control {
   background: #DDDDDD; 
   border: 2px solid #AAAAAA
+}
+
+input[type="text"] {
+  border: 2px solid #5CB338;
+}
+
+h2, .carrito {
+  font-style: italic;
 }
 
 .form-select {
