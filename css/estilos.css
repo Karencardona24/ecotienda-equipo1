@@ -73,7 +73,7 @@ ul > li > strong {
 
 div h3 {
     color: #5CB338;
-    font-weight: semi-bold;
+    font: bold 1.2rem 'Poppins', sans-serif;
 }
 
 .form-control {
