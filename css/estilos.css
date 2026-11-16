@@ -118,11 +118,12 @@ h2, .carrito {
   border-radius: 12px; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
   transition: transform 0.3s; 
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 }
 
-.tarjeta:hover { 
-  transform: translateY(-5px); 
-}
 
 /* Estilo para las imágenes de los productos */
 .producto-img { 
@@ -194,22 +195,24 @@ h2, .carrito {
   color: #666; 
 }
 
-.lista-tareas li {
+.lista-datos li {
   padding: 10px;
   list-style: none;
   text-align: left;
+    /* Selecciona los elementos en posiciones pares (2, 4, etc.) */
+    li:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    /* Selecciona únicamente el tercer elemento */
+    
+
 }
 
-/* Selecciona los elementos en posiciones pares (2, 4, etc.) */
-.lista-tareas li:nth-child(even) {
-  background-color: #f2f2f2;
+.lista-datos li:nth-child(3) {
+    font-weight: bold;
+    color: #198754;
 }
 
-/* Selecciona únicamente el tercer elemento */
-.lista-tareas li:nth-child(3) {
-  font-weight: bold;
-  color: #198754;
-}
 
 @media (max-width: 992px) { 
   .tarjetas { 
