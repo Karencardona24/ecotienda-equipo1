@@ -78,7 +78,12 @@ div h3 {
 
 .form-control {
   background: #DDDDDD; 
-  border: 2px solid #AAAAAA
+  border: 2px solid #AAAAAA;
+}
+
+.form-control:focus {
+  border-color: #5CB338;
+  box-shadow: 0 0 0 0.2rem rgba(92,179,56,0.25);
 }
 
 input[type="text"] {
@@ -91,7 +96,12 @@ h2, .carrito {
 
 .form-select {
   background: #DDDDDD; 
-  border: 2px solid #AAAAAA
+  border: 2px solid #AAAAAA;
+}
+
+.form-select:focus {
+  border-color: #5CB338;
+  box-shadow: 0 0 0 0.2rem rgba(92,179,56,0.25);
 }
 
 .tarjetas { 
@@ -182,6 +192,23 @@ h2, .carrito {
   text-align: center; 
   border-top: 2px solid #AAAAAA; 
   color: #666; 
+}
+
+.lista-tareas li {
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+}
+
+/* Selecciona los elementos en posiciones pares (2, 4, etc.) */
+.lista-tareas li:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Selecciona únicamente el tercer elemento */
+.lista-tareas li:nth-child(3) {
+  font-weight: bold;
+  color: #198754;
 }
 
 @media (max-width: 992px) { 
