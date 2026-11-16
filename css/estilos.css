@@ -104,6 +104,10 @@ h2, .carrito {
   box-shadow: 0 0 0 0.2rem rgba(92,179,56,0.25);
 }
 
+.disminuir {
+  font-size: 1.8rem;
+}
+
 .tarjetas { 
   display: grid; 
   grid-template-columns: repeat(2, 1fr); 
