@@ -50,7 +50,7 @@ body {
     border: 2px solid $color-amarillo;
     @include caja(16px);
     transition: transform 0.3s;
-    &:hover { transform: translateY(-5px); }
+    &:hover { transform: translateY(-5px);}
 }
 
 .producto-img {
@@ -67,7 +67,7 @@ body {
 .precio { 
     color: $color-verde; 
     font-weight: bold; 
-    font-size: 1.2rem; 
+    font-size: 1.2rem;     
 }
 
 .filtros {
@@ -119,6 +119,6 @@ body {
     .catalogo { grid-template-columns: 1fr; }
 }
 @media (max-width: 576px) {
-    .tarjetas { grid-template-columns: 1fr; }
-    .menu { flex-direction: column; }
+    .tarjetas { grid-template-columns: 1fr;}
+    .menu { flex-direction: column; }    
 }
